@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="26fd7a04c8974f5b881b1c8a68b92d87" Name="Diagram1">
+        <EntityTypeShape EntityType="MesovitaRobaModel.order" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MesovitaRobaModel.product" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MesovitaRobaModel.purchase" Width="1.5" PointX="6" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MesovitaRobaModel.supplier" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="MesovitaRobaModel.FK__orders__ProductI__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="MesovitaRobaModel.FK__purchases__Produ__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="MesovitaRobaModel.FK__purchases__Suppl__72C60C4A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
